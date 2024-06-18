@@ -1,0 +1,513 @@
+.form-choices li {
+    background-color: #fff !important;
+    padding: 0 !important;
+    border: 2px solid #86868b !important;
+    border-radius: 10px !important;
+    align-items: center !important;
+    justify-content: center;
+    cursor: pointer
+}
+
+.form-choices li label {
+    color: #0d3276 !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    padding: 15px !important;
+    text-align: center
+}
+
+.form-choices li:hover label,
+.form-choices li.wpforms-selected label {
+    width: 100%;
+    text-align: center
+}
+
+.form-choices li input {
+    display: none !important
+}
+
+.form-choices li:hover,
+.form-choices li.wpforms-selected {
+    border: 2px solid #006ad3 !important
+}
+
+.sp-form-action button {
+    width: 100% !important;
+    margin: 10px 0 !important
+}
+
+.question-heading {
+    font-size: 18px !important;
+    margin: 0 !important
+}
+
+.txt-desc {
+    font-weight: 400 !important;
+    font-size: 16px !important
+}
+
+.booking-desc {
+    font-weight: 400 !important;
+    font-size: 15px !important
+}
+
+.sp-form-action .wpforms-page-prev {
+    background-color: #0000 !important;
+    color: #012562 !important;
+    border: 1px solid #012562 !important
+}
+
+.sp-form-action .wpforms-page-prev:hover {
+    background-color: #0d3276 !important;
+    color: #fff !important
+}
+
+.sp-form-action .wpforms-page-next {
+    background-color: #012562 !important;
+    border: 2px solid #012562 !important
+}
+
+.wpforms-submit-container .sp-form-action {
+    background-color: #012562 !important;
+    border: 2px solid #012562 !important;
+    width: 100%
+}
+
+.ed-form .elementor-widget-container {
+    background: 0 0 !important
+}
+
+.consultation-form .txtTitle {
+    border-bottom: 2px solid;
+    padding-bottom: 15px
+}
+
+.consultation-form input:focus {
+    border: 3px solid #0d3276b3 !important
+}
+
+.question-container {
+    padding: 0 !important
+}
+
+.consultation-form .wpforms-save-resume-button {
+    text-decoration: none !important;
+    font-weight: 400;
+    font-size: 14px !important;
+    border-bottom: 1px solid #012562
+}
+
+.wpforms-submit-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.wpforms-save-resume-button {
+    margin: auto !important
+}
+
+.wpforms-submit-container .wpforms-save-resume-button span {
+    text-decoration: none !important;
+    font-weight: 400;
+    font-size: 14px !important;
+    border-bottom: 1px solid #012562
+}
+
+.consultation-form .message p {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 30px
+}
+
+.consultation-form .wpforms-save-resume-actions {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.consultation-form .wpforms-save-resume-actions form {
+    padding: 0 !important
+}
+
+.consultation-form .wpforms-save-resume-actions button {
+    width: 100%
+}
+
+.consultation-form .wpforms-clear {
+    text-align: center !important
+}
+
+.consultation-form .wpforms-field-limit-text {
+    opacity: 0
+}
+
+div.wpforms-container-full .wpforms-field.wpforms-field-radio ul,
+div.wpforms-container-full .wpforms-field.wpforms-field-checkbox ul {
+    --wpforms-field-size-input-spacing: 10px
+}
+
+.wpforms-clear.wpforms-pagebreak-left {
+    position: relative !important
+}
+
+.consultation-form .wpforms-field-html {
+    padding: 5px !important
+}
+
+.logged-in .wpforms-field-password.wpforms-conditional-hide {
+    display: none !important
+}
+
+#wpforms-page-prev--header a:not(.is-active) {
+    display: none
+}
+
+.wpforms-pagebreak-left .wpforms-page-prev {
+    display: none !important
+}
+
+.wpforms-page-1 .wpforms-save-resume-button {
+    display: none
+}
+
+#wpforms-confirmation-25256,
+#wpforms-confirmation-25256~.wpforms-entry-preview-table {
+    display: none
+}
+
+.wpforms-save-resume-actions form {
+    background-color: #0000 !important
+}
+
+.wpforms-container-save-resume {
+    background-color: #e7f0f8 !important;
+    padding: 20px !important;
+    border-radius: 15px !important
+}
+
+.pe-message-info .question-heading-continue {
+    font-size: 35px;
+    margin: 0
+}
+
+.pe-message-info .txt-desc {
+    font-size: 18px !important;
+    font-weight: 500 !important
+}
+
+.pe-message-info .red-desc {
+    font-weight: 500;
+    font-size: 14px;
+    color: red;
+    text-decoration: underline
+}
+
+.description {
+    text-align: center
+}
+
+.description a {
+    color: #3c91e6;
+    line-height: 35px
+}
+
+.consultation-form .wpforms-page-indicator-steps {
+    display: none
+}
+
+.booking-btn {
+    background-color: #006ad3 !important;
+    text-align: center;
+    border-radius: 10px !important;
+    padding: 5px !important
+}
+
+.booking-btn a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px !important;
+    text-transform: uppercase !important
+}
+
+.booking-btn:hover {
+    background-color: #012562 !important
+}
+
+.consultation-booking .wpforms-field-row {
+    margin: 0 !important
+}
+
+.consultation-booking .wpforms-field-description {
+    font-weight: 400;
+    color: #012562 !important
+}
+
+.consultation-booking .wpforms-field-label {
+    color: #012562 !important;
+    font-family: poppins, Sans-serif;
+    font-size: 21px !important;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.consultation-booking fieldset {
+    text-align: center
+}
+
+.wpforms-container .wpforms-field .wpforms-field-row {
+    justify-content: space-between !important
+}
+
+.patient-confirmation-checkbox {
+    padding: 0 !important
+}
+
+.patient-confirmation-checkbox .wpforms-field-label {
+    display: none !important
+}
+
+.change-prescription-form .question-heading {
+    font-size: 20px !important
+}
+
+.change-prescription-wrapper .elementor-widget-container {
+    background: #e7f0f8 !important
+}
+
+.qs-form-wrapper .qs-form {
+    padding: 0 !important;
+    margin: 0
+}
+
+.qs-form .newsletter-message {
+    color: #012562;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center
+}
+
+.qs-form .wpforms-field {
+    padding: 0 !important
+}
+
+.qs-form button {
+    width: 100% !important;
+    background-color: #0d3276 !important
+}
+
+.qs-form p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px !important;
+    color: #0d3276 !important
+}
+
+.qs-form .my-profile-btn {
+    text-align: center
+}
+
+.qs-form .my-profile-btn #back-page {
+    background-color: #0d3276;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.qs-form .wpforms-confirmation-container-full {
+    background: #e7f0f8 !important;
+    border: none !important;
+    margin: 0 !important
+}
+
+.disclaimer-txt {
+    font-size: 14px !important;
+    font-weight: 500
+}
+
+.disclaimer-txt strong {
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.photo-list {
+    font-weight: 400;
+    font-size: 14px !important;
+    color: #012562;
+    margin-top: 15px !important
+}
+
+.photo-list span {
+    font-weight: 600
+}
+
+.consultation-form .wpforms-field-file-upload {
+    padding-bottom: 0 !important
+}
+
+.ed-user-confirmation {
+    padding: 15px 0 0 !important;
+    text-align: center
+}
+
+.ed-user-confirmation legend {
+    display: none !important
+}
+
+.ed-user-confirmation ul li {
+    margin: auto !important
+}
+
+.hl-results-image {
+    border: 3px solid #0d3276 !important;
+    border-radius: 10px !important
+}
+
+.pregnant-end-btn {
+    background-color: #012562 !important;
+    border: 2px solid #012562 !important;
+    color: #fff;
+    padding: 12px 24px !important;
+    border-radius: 15px !important
+}
+
+#wpforms-28975-field_318 {
+    text-align: center;
+    margin-top: 15px
+}
+
+.pregnant-end {
+    display: none
+}
+
+.risk-free {
+    background-color: #e0ffcd !important;
+    border-radius: 15px !important;
+    padding: 10px !important
+}
+
+.risk-free img {
+    width: 75px !important
+}
+
+.risk-free h3 {
+    margin: 0 !important;
+    font-size: 15px !important
+}
+
+.risk-free p {
+    font-size: 12px !important;
+    font-weight: 500
+}
+
+.risk-free .elementor-image-box-wrapper {
+    gap: 15px
+}
+
+#wpforms-28975-field_320-container {
+    padding: 0 !important
+}
+
+.platform-question {
+    font-size: 23px !important
+}
+
+.limited-time {
+    background: #3c91e6 !important;
+    border-radius: 10px !important;
+    padding: 10px !important
+}
+
+.limited-time img {
+    width: 75px !important
+}
+
+.limited-time h3 {
+    margin: 0 !important;
+    font-size: 15px !important;
+    color: #fff
+}
+
+.limited-time .elementor-image-box-wrapper {
+    gap: 15px
+}
+
+.limited-time p {
+    font-size: 12px !important;
+    font-weight: 400;
+    color: #fff
+}
+
+.gender ul {
+    display: flex !important
+}
+
+.gender li {
+    width: 100% !important
+}
+
+.consultation-form .wpforms-field {
+    padding-top: 5px !important
+}
+
+.info-heading {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    margin: 0 0 20px !important;
+    border-bottom: 1px solid #0d3276 !important
+}
+
+.wpforms-container .wpforms-page-indicator {
+    margin: 0 0 20px !important
+}
+
+.wpforms-page-indicator-page-progress-wrap {
+    margin-bottom: 15px !important
+}
+
+.transition {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background: #d6d6d6;
+    transform: translateY(0);
+    transition: 2s all ease-in-out;
+    -webkit-transition: 2s all ease-in-out
+}
+
+#wpforms-38512 {
+    position: relative;
+    z-index: 10;
+    overflow: hidden
+}
+
+button.wpforms-page-button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #202020;
+    color: #eaeaea;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 10px 40px
+}
+
+.anim-trans {
+    animation: anim 4s ease-in-out
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(100%)
+    }
+    20% {
+        z-index: 11;
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
